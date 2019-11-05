@@ -300,6 +300,7 @@ OBOSA 서비스에서 결제가 진행되는 흐름은 다음과 같습니다.
 
 ---
 <br />
+
 ## Logback
 
 **Logback**은 "자바 오픈소스 로깅 프레임워크"로 SLF4J의 구현체이자 **스프링 부트의 기본 로그** 객체다.
@@ -348,6 +349,7 @@ log4j, log4j2, JUL(java.util.logging)과 성능을 비교했을 때 logback은 �
 
 ---
 <br />
+
 ## Nginx
 #### -Port Forwarding & Https 적용
 **letsencrypt**를 통하여 편리하게 발급받은 무료 SSL인증서를 **Nginx에 적용**시키고 이를 통해 Https가 적용되도록 설정하였다.
@@ -370,6 +372,7 @@ upstream에 위의 설정을 잡아준 뒤 config 파일내의 server block에�
 
 ---
 <br />
+
 ## 최종 인프라 다이어그램 모델 구상도
 
 ![obosa architecture]( https://obosa.s3.ap-northeast-2.amazonaws.com/obosa/obosa+Structure.png)
