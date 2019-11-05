@@ -145,6 +145,7 @@ AAA(Header).BBB(Payload).CCC(Signature)
 ---
 <br />
 <br />
+
 ## Encryption
 
 #### - Symmetric Key Encryption(AES256)
