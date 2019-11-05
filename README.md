@@ -80,6 +80,7 @@ tail -f "filename"
 
 ---
 <br />
+
 ## JWT
 
 WEB/Mobile APP 개발을 하면 로그인 과정에서 반드시 **Cookie-Session**개념을 마주치게 된다.
