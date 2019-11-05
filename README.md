@@ -80,8 +80,6 @@ tail -f "filename"
 
 ---
 <br />
-<br />
-
 ## JWT
 
 WEB/Mobile APP 개발을 하면 로그인 과정에서 반드시 **Cookie-Session**개념을 마주치게 된다.
@@ -104,7 +102,7 @@ WEB과 Mobile의 처리 방식이 다르고 또 다른 Client가 생겨나면 �
 
 토큰은 서버의 상태를 저장하지 않고 Self-Contained이기 때문에 별도의 인증서버가 필요하지 않다. 또한 JSON 포맷으로 통신하기 때문에 Client 별 처리 방식과 별개로 Data 통신에 사용할 수 있다.
 
-
+<br />
 
 #### JWT's Architecture
 
@@ -122,7 +120,7 @@ AAA(Header).BBB(Payload).CCC(Signature)
 
 각각의 JSON형태의 데이터를 **base64 인코딩** 후 .을 이용하여 합치면 하나의 JWT Token이 완성된다.
 
-
+<br />
 
 #### JWT 통신 과정
 
@@ -143,7 +141,6 @@ AAA(Header).BBB(Payload).CCC(Signature)
 2. 토큰은 Client Side에서 관리해야하기 때문에 **토큰을 저장해야 한다.**
 
 ---
-<br />
 <br />
 
 ## Encryption
@@ -179,7 +176,6 @@ Email은 사용자의 id를 대체하여 사용되기 때문에 따로 암호화
 단방향 해싱 암호화의 경우 **처리 속도가 굉장히 빠르기** 때문에 이후에 Salt값을 합쳐서 비밀번호를 확인하는 것에 성능상에 문제를 일으키지 않고 처리될 수 있다.  
 
 ---
-<br />
 <br />
 
 ## DB Replication
@@ -238,7 +234,6 @@ public class ObosaApplication {
 
 ---
 <br />
-<br />
 
 ## 아임포트 결제 연동
 
@@ -261,7 +256,6 @@ OBOSA 서비스에서 결제가 진행되는 흐름은 다음과 같습니다.
 12. 결제 완료 상태 변경이 성공적으로 수행되었다고 클라이언트에 응답
 
 ---
-<br />
 <br />
 
 ## 이메일 인증
@@ -304,7 +298,6 @@ OBOSA 서비스에서 결제가 진행되는 흐름은 다음과 같습니다.
 
 
 ---
-<br />
 <br />
 ## Logback
 
@@ -354,7 +347,6 @@ log4j, log4j2, JUL(java.util.logging)과 성능을 비교했을 때 logback은 �
 
 ---
 <br />
-<br />
 ## Nginx
 #### -Port Forwarding & Https 적용
 **letsencrypt**를 통하여 편리하게 발급받은 무료 SSL인증서를 **Nginx에 적용**시키고 이를 통해 Https가 적용되도록 설정하였다.
@@ -376,7 +368,6 @@ upstream에 위의 설정을 잡아준 뒤 config 파일내의 server block에�
 
 
 ---
-<br />
 <br />
 ## 최종 인프라 다이어그램 모델 구상도
 
