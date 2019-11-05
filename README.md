@@ -284,11 +284,11 @@ OBOSA 서비스에서 결제가 진행되는 흐름은 다음과 같습니다.
 8. RegistrationCompleteEvent 를 listening하는 RegistrationListener에서 24시간의 유효기간을 가지는 VerificationToken을 생성한다.
 9. 생성한 토큰으로 인증 링크를 생성해서 사용자의 이메일로 인증 메일을 발송
 
-![image](uploads/238b117d6233685b5b8ecdfe2ef57f1f/image.png)
+![image](https://obosa.s3.ap-northeast-2.amazonaws.com/obosa/readme/email-received.png)
 
 위와 같은 메일이 온 것을 확인할 수 있다.
 
-![image](uploads/e9c04a3f3078b19df2a2467668c2474b/image.png)
+![image](https://obosa.s3.ap-northeast-2.amazonaws.com/obosa/readme/email-body.png)
 
 메일 본문은 인증링크를 포함하고 있다.
 
